@@ -1,0 +1,21 @@
+<h2>Welcome to {{name}} !</h2>
+
+<h2>{{teller}}</h2>
+
+<p>
+Tel met : <input #step type="number">
+</p>
+
+<p>
+    <!-- <button (click)="Verhoog()">Verhoog</button> -->
+    <button (click)="Verhoog(step.value)">Verhoog</button>
+</p>
+
+<p>
+    <!-- <button (click)="Verlaag()">Verlaag</button> -->
+    <button (click)="Verlaag(step.value)">Verlaag</button>
+</p>
+
+<p>
+    <button (click)="Reset()">Reset</button>
+</p>
